@@ -1,0 +1,132 @@
+// External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+
+/* Doodle Stage */
+#stage {
+  background: #fff;
+  height: 300px;
+  width: 600px;
+  padding: 10px;
+}
+
+
+/* google animations */
+
+
+#plates .plate1{
+  fill: orange;
+  background: blue;
+}
+
+#plates .cls-1{
+  fill: darkseagreen;
+}
+
+#pancakes .pan1{
+  animation-delay: 3s;
+  fill: peru;
+  stroke: palegoldenrod;
+  stroke-width: 4px;
+}
+
+#pancakes .pan2{
+  animation-delay: 3.5s;
+  fill: peru;
+  stroke: palegoldenrod;
+  stroke-width: 4px;
+}
+
+#pancakes .pan3{
+  animation-delay: 4s;
+  fill: peru;
+  stroke: palegoldenrod;
+  stroke-width: 4px;
+}
+
+#pancakes .pan4{
+  animation-delay: 4.5s;
+  fill: peru;
+  stroke: palegoldenrod;
+  stroke-width: 4px;
+}
+
+#smallfork .smallf{
+  animation-delay: 3.5s;
+  fill: silver;
+  stroke: black;
+}
+
+#bigfork .cls-3{
+  fill: silver;
+}
+
+#banana .cls-3{
+  fill: gold;
+}
+
+#syrup .glass{
+  fill: saddlebrown;
+  animated: bounceInLeft;
+}
+
+#syrup .lid{
+  fill: silver;
+}
+
+#syrup .handle{
+  fill: orangered;
+}
+
+#syrup .spout{
+  fill: dimgrey;
+}
+
+
+
+/*animations*/
+.pan1{
+      animation:
+      falling
+      2.5s 
+      ;
+
+}
+
+.pan2{
+      animation:
+      falling
+      2.5s 
+      ;
+}
+
+.pan3{
+      animation:
+      falling
+      2.5s 
+      ;
+}
+
+.pan4{
+      animation:
+      falling
+      2.5s 
+      ;
+}
+
+#banana .cls-3{
+/*       animation:
+      falling
+      2.5s 
+      ; */
+}
+
+
+@keyframes falling {
+  0%{
+    transform: scale(20);
+  }
+  
+  100%{
+    transform: scale(1);
+  }
+}//   end of falling
+
